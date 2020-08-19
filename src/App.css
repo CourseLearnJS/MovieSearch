@@ -1,0 +1,65 @@
+/*Search.js*/
+
+.navbar-brand {
+    font-weight: bolder;
+    font-size: 1.4rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.searchInput {
+  border-radius: 4px 0 0 4px;
+  border-right: none;
+}
+
+.searchInput:focus {
+  box-shadow: none;
+  border: none;
+}
+
+.searchBtn {
+  border-radius: 0 4px 4px 0 !important;
+  border-left: none;
+  background-color: #ffffff;
+}
+
+/*Movies.js*/
+
+.container {
+    margin: auto;
+    width: 50%;
+}
+
+.card {
+   margin: 3rem;
+}
+
+.btn {
+    border-radius: 4px;
+    margin-right: 1.5rem;
+    width: 5rem;
+}
+
+.fa-play {
+    font-size: 0.7rem;
+}
+
+/*App.js*/
+
+.alert {
+    text-align: center;
+    color: red;
+}
+
+
+/*Responsive*/
+@media screen and (max-width: 992px) {
+    .container {
+      width: 80%;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .container {
+      width: 90%;
+    }
+  }
